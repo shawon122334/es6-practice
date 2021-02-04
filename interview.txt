@@ -1,0 +1,18 @@
+what is destructure?
+	-a shortcut way to find a an element from a big array/object(const [element name]=arrayName;)
+
+from an object : 
+
+const person={name:'Jack William',age:17,job:'facebook',gfName:'Emma Watson',phone:01711111111,friends:['Tom Hanks','Billy ']}
+const {phone,gfName}=person;
+
+//complexObject
+
+const complexObject={
+    name:'abc';
+    info:{
+        address:'kola bagan',
+        leader:'Tiger Leader'
+    }
+}
+const {leader}=complexObject.info;
